@@ -1,1 +1,109 @@
-aW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCBzeXMKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKClRPRE9fRklMRSA9ICJ0b2Rvcy5qc29uIgoKCmRlZiBsb2FkX3RvZG9zKCk6CiAgICBpZiBub3Qgb3MucGF0aC5leGlzdHMoVE9ET19GSUxFKToKICAgICAgICByZXR1cm4gW10KICAgIHdpdGggb3BlbihUT0RPX0ZJTEUsICJyIiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgZjoKICAgICAgICByZXR1cm4ganNvbi5sb2FkKGYpCgoKZGVmIHNhdmVfdG9kb3ModG9kb3MpOgogICAgd2l0aCBvcGVuKFRPRE9fRklMRSwgInciLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgIGpzb24uZHVtcCh0b2RvcywgZiwgZW5zdXJlX2FzY2lpPUZhbHNlLCBpbmRlbnQ9MikKCgpkZWYgYWRkX3RvZG8odGl0bGUpOgogICAgdG9kb3MgPSBsb2FkX3RvZG9zKCkKICAgIHRvZG8gPSB7CiAgICAgICAgImlkIjogbGVuKHRvZG9zKSArIDEsCiAgICAgICAgInRpdGxlIjogdGl0bGUsCiAgICAgICAgImRvbmUiOiBGYWxzZSwKICAgICAgICAiY3JlYXRlZF9hdCI6IGRhdGV0aW1lLm5vdygpLmlzb2Zvcm1hdCgpLAogICAgfQogICAgdG9kb3MuYXBwZW5kKHRvZG8pCiAgICBzYXZlX3RvZG9zKHRvZG9zKQogICAgcHJpbnQoZiLinIUgVGFzayBhZGRlZDogW3t0b2RvWydpZCddfV0ge3RpdGxlfSIpCgoKZGVmIGxpc3RfdG9kb3MoKToKICAgIHRvZG9zID0gbG9hZF90b2RvcygpCiAgICBpZiBub3QgdG9kb3M6CiAgICAgICAgcHJpbnQoIvCfk60gTm8gdGFza3MgeWV0LiBBZGQgb25lIHdpdGg6IHB5dGhvbiB0b2RvLnB5IGFkZCA8dGFzaz4iKQogICAgICAgIHJldHVybgogICAgcHJpbnQoIlxu8J+TiyBZb3VyIFRvZG8gTGlzdDoiKQogICAgcHJpbnQoIi0iICogNDApCiAgICBmb3IgdCBpbiB0b2RvczoKICAgICAgICBzdGF0dXMgPSAi4pyFIiBpZiB0WyJkb25lIl0gZWxzZSAi4qycIgogICAgICAgIHByaW50KGYiICB7c3RhdHVzfSBbe3RbJ2lkJ119XSB7dFsndGl0bGUnXX0iKQogICAgcHJpbnQoIi0iICogNDApCiAgICBkb25lID0gc3VtKDEgZm9yIHQgaW4gdG9kb3MgaWYgdFsiZG9uZSJdKQogICAgcHJpbnQoZiIgIHtkb25lfS97bGVuKHRvZG9zKX0gY29tcGxldGVkXG4iKQoKCmRlZiBjb21wbGV0ZV90b2RvKHRvZG9faWQpOgogICAgdG9kb3MgPSBsb2FkX3RvZG9zKCkKICAgIGZvciB0IGluIHRvZG9zOgogICAgICAgIGlmIHRbImlkIl0gPT0gdG9kb19pZDoKICAgICAgICAgICAgdFsiZG9uZSJdID0gVHJ1ZQogICAgICAgICAgICBzYXZlX3RvZG9zKHRvZG9zKQogICAgICAgICAgICBwcmludChmIvCfjokgQ29tcGxldGVkOiBbe3RbJ2lkJ119XSB7dFsndGl0bGUnXX0iKQogICAgICAgICAgICByZXR1cm4KICAgIHByaW50KGYi4p2MIFRhc2sgI3t0b2RvX2lkfSBub3QgZm91bmQuIikKCgpkZWYgZGVsZXRlX3RvZG8odG9kb19pZCk6CiAgICB0b2RvcyA9IGxvYWRfdG9kb3MoKQogICAgbmV3X3RvZG9zID0gW3QgZm9yIHQgaW4gdG9kb3MgaWYgdFsiaWQiXSAhPSB0b2RvX2lkXQogICAgaWYgbGVuKG5ld190b2RvcykgPT0gbGVuKHRvZG9zKToKICAgICAgICBwcmludChmIuKdjCBUYXNrICN7dG9kb19pZH0gbm90IGZvdW5kLiIpCiAgICAgICAgcmV0dXJuCiAgICBzYXZlX3RvZG9zKG5ld190b2RvcykKICAgIHByaW50KGYi8J+Xke+4jyAgRGVsZXRlZCB0YXNrICN7dG9kb19pZH0iKQoKCmRlZiBwcmludF9oZWxwKCk6CiAgICBwcmludCgiIiIK8J+Xku+4jyAgQ0xJIFRvZG8gVG9vbCDigJQgVXNhZ2U6CgogIHB5dGhvbiB0b2RvLnB5IGFkZCA8dGFzaz4gICAgICBBZGQgYSBuZXcgdGFzawogIHB5dGhvbiB0b2RvLnB5IGxpc3QgICAgICAgICAgICBMaXN0IGFsbCB0YXNrcwogIHB5dGhvbiB0b2RvLnB5IGRvbmUgPGlkPiAgICAgICBNYXJrIGEgdGFzayBhcyBjb21wbGV0ZWQKICBweXRob24gdG9kby5weSBkZWxldGUgPGlkPiAgICAgRGVsZXRlIGEgdGFzawogIHB5dGhvbiB0b2RvLnB5IGhlbHAgICAgICAgICAgICBTaG93IHRoaXMgaGVscCBtZXNzYWdlCiIiIikKCgpkZWYgbWFpbigpOgogICAgYXJncyA9IHN5cy5hcmd2WzE6XQogICAgaWYgbm90IGFyZ3Mgb3IgYXJnc1swXSA9PSAiaGVscCI6CiAgICAgICAgcHJpbnRfaGVscCgpCiAgICBlbGlmIGFyZ3NbMF0gPT0gImFkZCI6CiAgICAgICAgaWYgbGVuKGFyZ3MpIDwgMjoKICAgICAgICAgICAgcHJpbnQoIlVzYWdlOiBweXRob24gdG9kby5weSBhZGQgPHRhc2sgdGl0bGU+IikKICAgICAgICBlbHNlOgogICAgICAgICAgICBhZGRfdG9kbygiICIuam9pbihhcmdzWzE6XSkpCiAgICBlbGlmIGFyZ3NbMF0gPT0gImxpc3QiOgogICAgICAgIGxpc3RfdG9kb3MoKQogICAgZWxpZiBhcmdzWzBdID09ICJkb25lIjoKICAgICAgICBpZiBsZW4oYXJncykgPCAyOgogICAgICAgICAgICBwcmludCgiVXNhZ2U6IHB5dGhvbiB0b2RvLnB5IGRvbmUgPGlkPiIpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgY29tcGxldGVfdG9kbyhpbnQoYXJnc1sxXSkpCiAgICBlbGlmIGFyZ3NbMF0gPT0gImRlbGV0ZSI6CiAgICAgICAgaWYgbGVuKGFyZ3MpIDwgMjoKICAgICAgICAgICAgcHJpbnQoIlVzYWdlOiBweXRob24gdG9kby5weSBkZWxldGUgPGlkPiIpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgZGVsZXRlX3RvZG8oaW50KGFyZ3NbMV0pKQogICAgZWxzZToKICAgICAgICBwcmludChmIlVua25vd24gY29tbWFuZDoge2FyZ3NbMF19IikKICAgICAgICBwcmludF9oZWxwKCkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+import json
+import os
+import sys
+from datetime import datetime
+
+TODO_FILE = "todos.json"
+
+
+def load_todos():
+    if not os.path.exists(TODO_FILE):
+        return []
+    with open(TODO_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_todos(todos):
+    with open(TODO_FILE, "w", encoding="utf-8") as f:
+        json.dump(todos, f, ensure_ascii=False, indent=2)
+
+
+def add_todo(title):
+    todos = load_todos()
+    todo = {
+        "id": len(todos) + 1,
+        "title": title,
+        "done": False,
+        "created_at": datetime.now().isoformat(),
+    }
+    todos.append(todo)
+    save_todos(todos)
+    print(f"✅ Task added: [{todo['id']}] {title}")
+
+
+def list_todos():
+    todos = load_todos()
+    if not todos:
+        print("📭 No tasks yet. Add one with: python todo.py add <task>")
+        return
+    print("\n📋 Your Todo List:")
+    print("-" * 40)
+    for t in todos:
+        status = "✅" if t["done"] else "⬜"
+        print(f"  {status} [{t['id']}] {t['title']}")
+    print("-" * 40)
+    done = sum(1 for t in todos if t["done"])
+    print(f"  {done}/{len(todos)} completed\n")
+
+
+def complete_todo(todo_id):
+    todos = load_todos()
+    for t in todos:
+        if t["id"] == todo_id:
+            t["done"] = True
+            save_todos(todos)
+            print(f"🎉 Completed: [{t['id']}] {t['title']}")
+            return
+    print(f"❌ Task #{todo_id} not found.")
+
+
+def delete_todo(todo_id):
+    todos = load_todos()
+    new_todos = [t for t in todos if t["id"] != todo_id]
+    if len(new_todos) == len(todos):
+        print(f"❌ Task #{todo_id} not found.")
+        return
+    save_todos(new_todos)
+    print(f"🗑️  Deleted task #{todo_id}")
+
+
+def print_help():
+    print("""
+🗒️  CLI Todo Tool — Usage:
+
+  python todo.py add <task>      Add a new task
+  python todo.py list            List all tasks
+  python todo.py done <id>       Mark a task as completed
+  python todo.py delete <id>     Delete a task
+  python todo.py help            Show this help message
+""")
+
+
+def main():
+    args = sys.argv[1:]
+    if not args or args[0] == "help":
+        print_help()
+    elif args[0] == "add":
+        if len(args) < 2:
+            print("Usage: python todo.py add <task title>")
+        else:
+            add_todo(" ".join(args[1:]))
+    elif args[0] == "list":
+        list_todos()
+    elif args[0] == "done":
+        if len(args) < 2:
+            print("Usage: python todo.py done <id>")
+        else:
+            complete_todo(int(args[1]))
+    elif args[0] == "delete":
+        if len(args) < 2:
+            print("Usage: python todo.py delete <id>")
+        else:
+            delete_todo(int(args[1]))
+    else:
+        print(f"Unknown command: {args[0]}")
+        print_help()
+
+
+if __name__ == "__main__":
+    main()
