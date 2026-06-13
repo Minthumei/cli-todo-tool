@@ -1,1 +1,62 @@
-IyDwn5eS77iPIENMSSBUb2RvIFRvb2wKCuOCt+ODs+ODl+ODq+OBp+S9v+OBhOOChOOBmeOBhOOCs+ODnuODs+ODieODqeOCpOODs+OBrlRvRG/jg4Tjg7zjg6vjgafjgZnjgILjgr/jgrnjgq/jgpJKU09O44OV44Kh44Kk44Or44Gn566h55CG44GX44G+44GZ44CCCgojIyDwn5qAIOS9v+OBhOaWuQoKYGBgYmFzaAojIOOCv+OCueOCr+OCkui/veWKoApweXRob24gdG9kby5weSBhZGQg6LK344GE54mp44Gr6KGM44GPCgojIOS4gOimp+ihqOekugpweXRob24gdG9kby5weSBsaXN0CgojIOOCv+OCueOCr+OCkuWujOS6huOBq+OBmeOCiwpweXRob24gdG9kby5weSBkb25lIDEKCiMg44K/44K544Kv44KS5YmK6Zmk44GZ44KLCnB5dGhvbiB0b2RvLnB5IGRlbGV0ZSAxCgojIOODmOODq+ODl+OCkuihqOekugpweXRob24gdG9kby5weSBoZWxwCmBgYAoKIyMg8J+TiyDlrp/ooYzkvosKCmBgYAokIHB5dGhvbiB0b2RvLnB5IGFkZCBHaXRIdWLjgavjg5fjg4Pjgrfjg6XjgZnjgosK4pyFIFRhc2sgYWRkZWQ6IFsxXSBHaXRIdWLjgavjg5fjg4Pjgrfjg6XjgZnjgosKCiQgcHl0aG9uIHRvZG8ucHkgYWRkIOOCs+ODvOODieODrOODk+ODpeODvOOCkuOBmeOCiwrinIUgVGFzayBhZGRlZDogWzJdIOOCs+ODvOODieODrOODk+ODpeODvOOCkuOBmeOCiwoKJCBweXRob24gdG9kby5weSBsaXN0Cgrwn5OLIFlvdXIgVG9kbyBMaXN0OgotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAg4qycIFsxXSBHaXRIdWLjgavjg5fjg4Pjgrfjg6XjgZnjgosKICDirJwgWzJdIOOCs+ODvOODieODrOODk+ODpeODvOOCkuOBmeOCiwotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgMC8yIGNvbXBsZXRlZAoKJCBweXRob24gdG9kby5weSBkb25lIDEK8J+OiSBDb21wbGV0ZWQ6IFsxXSBHaXRIdWLjgavjg5fjg4Pjgrfjg6XjgZnjgosKCiQgcHl0aG9uIHRvZG8ucHkgbGlzdAoK8J+TiyBZb3VyIFRvZG8gTGlzdDoKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogIOKchSBbMV0gR2l0SHVi44Gr44OX44OD44K344Ol44GZ44KLCiAg4qycIFsyXSDjgrPjg7zjg4njg6zjg5Pjg6Xjg7zjgpLjgZnjgosKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogIDEvMiBjb21wbGV0ZWQKYGBgCgojIyDwn5OBIOODh+ODvOOCv+S/neWtmAoK44K/44K544Kv44GvIGB0b2Rvcy5qc29uYCDjgavoh6rli5Xkv53lrZjjgZXjgozjgb7jgZnjgIIKCiMjIPCfm6DvuI8g5YuV5L2c55Kw5aKDCgotIFB5dGhvbiAzLjYrCi0g6L+95Yqg44Op44Kk44OW44Op44Oq5LiN6KaB77yI5qiZ5rqW44Op44Kk44OW44Op44Oq44Gu44G/77yJCg==
+# 🗒️ CLI Todo Tool
+
+シンプルで使いやすいコマンドラインのToDoツールです。タスクをJSONファイルで管理します。
+
+## 🚀 使い方
+
+```bash
+# タスクを追加
+python todo.py add 買い物に行く
+
+# 一覧表示
+python todo.py list
+
+# タスクを完了にする
+python todo.py done 1
+
+# タスクを削除する
+python todo.py delete 1
+
+# ヘルプを表示
+python todo.py help
+```
+
+## 📋 実行例
+
+```
+$ python todo.py add GitHubにプッシュする
+✅ Task added: [1] GitHubにプッシュする
+
+$ python todo.py add コードレビューをする
+✅ Task added: [2] コードレビューをする
+
+$ python todo.py list
+
+📋 Your Todo List:
+----------------------------------------
+  ⬜ [1] GitHubにプッシュする
+  ⬜ [2] コードレビューをする
+----------------------------------------
+  0/2 completed
+
+$ python todo.py done 1
+🎉 Completed: [1] GitHubにプッシュする
+
+$ python todo.py list
+
+📋 Your Todo List:
+----------------------------------------
+  ✅ [1] GitHubにプッシュする
+  ⬜ [2] コードレビューをする
+----------------------------------------
+  1/2 completed
+```
+
+## 📁 データ保存
+
+タスクは `todos.json` に自動保存されます。
+
+## 🛠️ 動作環境
+
+- Python 3.6+
+- 追加ライブラリ不要（標準ライブラリのみ）
